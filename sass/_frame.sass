@@ -1,16 +1,22 @@
 .frame
     background-color: #e9eeee
     display: flex
+    flex-wrap: wrap
     .navbar__search-container
         background-color: #e9eeee
+        display: flex
         flex-grow: 1
-        left: 0
-        padding: 25px
-        padding-left: 6rem
+        flex-wrap: wrap
+        padding: 2rem 2rem 1rem 7rem
+        .navbar__search
+            background-color: white
+            border-radius: 8px
+    input
+        width: 160px
     .navbar__bell
         background-color: #e9eeee
         flex-wrap: wrap
-        flex-grow: 1
-        justify-content: flex-end
-        text-align: right
-        padding: 25px
+        padding: 2rem 2rem 1rem 0
+        .navbar__bell-container
+            background-color: white
+            border-radius: 8px

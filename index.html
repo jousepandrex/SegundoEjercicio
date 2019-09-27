@@ -14,12 +14,15 @@
         <div class="navbar__main-navbar">
             <i class="fa fa-plane icon-paper-plane-empty"></i>
             <div class="navbar__search-container">
+              <div class="navbar__search">
                 <input type="text" placeholder="Busca estudiantes, padres o maestros aquí...">
-                <button type="submit"><i class="fa fa-find icon-search"></i></button>
+                <i class="fa fa-find icon-search"></i>
+              </div>
             </div>
             <div class="navbar__bell">
                 <i class="fa fa-bell icon-bell-alt"></i>
-                <i class="fa fa-user icon-user">Iris Lucrecia</i>
+                <!--<i class="fa fa-user icon-user"></i>-->
+                <!--<label>Iris Lucrecia</label>-->
                 <i class="fa fa-cog icon-cog"></i>
                 <i class="fa fa-sort icon-sort-down"></i>
             </div>
@@ -50,7 +53,9 @@
         <i class="fa fa-book icon-book-1"></i>
         <label class="main__label1">Mis Cursos</label>
       </div>
-      <div class="main__labels">
+    </div>
+    <div class="main__labels">
+      <div class="main__lab">
         <div class="main__label2 label">
           <label><b>Mis Cursos(500)</b></label>
           <hr>
@@ -65,14 +70,20 @@
     </div>
     <div class="frame">
       <div class="navbar__search-container">
-        <input type="text" class="frame__input-down" placeholder="Todos los niveles">
-        <button type="submit"><i class="fa fa-sort icon-down-open"></i></button>
-        <input type="text" class="frame__input-down" placeholder="Todos los niveles">
-        <button type="submit"><i class="fa fa-sort icon-down-open"></i></button>
+        <div class="navbar__search">
+          <input type="text" class="frame__input-down" placeholder="Todos los niveles">
+          <i class="fa fa-sort icon-down-open"></i>
+        </div>
+        <div class="navbar__search">
+          <input type="text" class="frame__input-down" placeholder="Todos los grados">
+          <i class="fa fa-sort icon-down-open"></i>
+        </div>
       </div>
       <div class="navbar__bell">
-        <input type="text" class="frame__input-down" placeholder="Todos los niveles">
-        <button type="submit"><i class="fa fa-find icon-search"></i></button>
+        <div class="navbar__bell-container">
+          <input type="text" class="frame__input-down" placeholder="Busca el curso aquí...">
+          <i class="fa fa-find icon-search"></i>
+        </div>
       </div>
     </div>
     <div class="course">
@@ -102,16 +113,16 @@
       </div>
     </div>
     <div class="course__courses">
-      <div class="course__courses-lectura lect1">
-        <div class="course__courses-lectura1  icon1">
+      <div class="course__courses-matematica">
+        <div class="course__courses-matematica1">
           <h1>Matematica</h1>
           <p>Nursery Preprimaria "A"</p>
         </div>
-        <div class="course__courses-iconos icon1">
+        <div class="course__courses-iconos">
           <i class="fa fa-superscript icon-superscript"></i>
         </div>
       </div>
-      <div class="course__courses-iconos2 icono1">
+      <div class="course__courses-icono-matematica">
         <div>
           <i class="fa fa-plane icon-paper-plane-empty"></i>
         </div>
@@ -127,16 +138,16 @@
       </div>
     </div>
     <div class="course__courses">
-      <div class="course__courses-lectura">
-        <div class="course__courses-lectura1 icon2">
+      <div class="course__courses-madurez">
+        <div class="course__courses-madurez1">
           <h1>Madurez Motora</h1>
           <p>Nursery Preprimaria "A"</p>
         </div>
-        <div class="course__courses-iconos icon2">
+        <div class="course__courses-iconos">
           <i class="fa fa-puzzle icon-puzzle"></i>
         </div>
       </div>
-      <div class="course__courses-iconos2">
+      <div class="course__courses-icono-madurez">
         <div>
           <i class="fa fa-plane icon-paper-plane-empty"></i>
         </div>
