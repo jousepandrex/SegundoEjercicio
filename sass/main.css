@@ -143,13 +143,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 0 14rem 0 14rem; }
+    margin: 0 7rem 0 10rem; }
     .main__course .course .course__courses {
       background-color: #ffffff;
       border-radius: 15px 15px 15px 15px;
       flex-wrap: wrap;
       height: 400px;
-      margin: 2rem 0 1rem 1rem;
+      margin: 2rem 0 2rem 4rem;
       width: 430px; }
       .main__course .course .course__courses .course__courses-madurez {
         border-radius: 15px 15px 0 0;
