@@ -2,7 +2,8 @@ body {
   background-color: #e9eeee;
   font-family: Open Sans;
   margin: 0;
-  min-width: 674px;
+  max-width: 1800px;
+  min-width: 680px;
   overflow-x: hidden;
   padding: 0; }
   body .navbar {
@@ -14,7 +15,7 @@ body {
     top: 0;
     width: 100%; }
   body .navbar__bell {
-    font-size: 24px; }
+    font-size: 20px; }
   body input {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -55,18 +56,26 @@ body {
     color: #a8e9e7;
     display: flex;
     text-align: right;
-    margin: 10px 0 0 0;
-    padding: 0 1rem 0 0; }
+    margin: 8px 0 0 0; }
     .navbar__main-navbar .navbar__main-bell .bell {
       background-color: #019c97;
       display: flex;
-      margin: 10px 0 0 0; }
+      margin: 5px 15px 0 0; }
+      .navbar__main-navbar .navbar__main-bell .bell .icon-bell-alt {
+        padding: 0 2rem 0 0; }
+      .navbar__main-navbar .navbar__main-bell .bell .icon-cog {
+        padding: 0 0 0 2rem; }
+      .navbar__main-navbar .navbar__main-bell .bell .icon-sort-down {
+        padding: 0 2rem 0 0; }
       .navbar__main-navbar .navbar__main-bell .bell .line {
         border-right: 1px solid #01a6a1;
         height: 2rem; }
       .navbar__main-navbar .navbar__main-bell .bell .line2 {
         border-left: 1px solid #01a6a1;
         height: 2rem; }
+      .navbar__main-navbar .navbar__main-bell .bell .job {
+        font-size: 12px;
+        margin: 1px 0 0 0; }
   .navbar__main-navbar .icon-paper-plane-empty {
     color: #c2fdfb;
     font-size: 2rem;
@@ -80,7 +89,7 @@ body {
 .navbar__left {
   background-color: #2d3b3b;
   height: 100%;
-  margin-top: 68px;
+  margin-top: 64px;
   position: fixed; }
   .navbar__left .navbar__home {
     background-color: #2d3b3b;
@@ -104,7 +113,7 @@ body {
     font-size: 2rem;
     flex-grow: 1;
     flex-wrap: wrap;
-    padding: 3rem 1rem 4rem 6rem; }
+    padding: 3rem 1rem 3rem 6rem; }
     .main .main__main-div .icon-book-1 {
       font-size: 2rem; }
 
@@ -203,7 +212,7 @@ body {
         .main__course .course .course__courses .course__courses-madurez .fa {
           font-size: 6rem;
           color: white;
-          padding-left: 16rem;
+          padding: 0 0 0 16rem;
           opacity: 0.1; }
       .main__course .course .course__courses .course__courses-iconos {
         border-radius: 10px 10px 0 0;
@@ -212,7 +221,6 @@ body {
         justify-content: center; }
         .main__course .course .course__courses .course__courses-iconos .fa {
           color: white;
-          font-size: 6rem;
           opacity: 0.2; }
       .main__course .course .course__courses .course__courses-iconos2 {
         background-color: #36ad5b;
@@ -223,8 +231,9 @@ body {
         justify-content: space-around; }
       .main__course .course .course__courses .fa {
         color: white;
-        font-size: 2rem;
-        opacity: 0.3; }
+        font-size: 24px;
+        opacity: 0.3;
+        padding: 10px 0 10px 0; }
       .main__course .course .course__courses .course__courses-icono-matematica {
         background-color: #ee5252;
         border: 1px solid #fc7a6b;
@@ -239,7 +248,5 @@ body {
         flex-grow: 1;
         flex-wrap: wrap;
         justify-content: space-around; }
-      .main__course .course .course__courses hr {
-        border: solid grey; }
 
 /*# sourceMappingURL=main.css.map */
