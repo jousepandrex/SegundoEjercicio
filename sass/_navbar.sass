@@ -1,22 +1,35 @@
 .navbar__main-navbar
     display: flex
-    justify-content: space-between
-    padding: 10px 0 10px 12px
+    padding: 0 0 6px 0
     .navbar__search-container
-        background-color: #019c97
-        padding: 0 0 0 15px
-        .navbar__search
-            background-color: white
-            border-radius: 8px
-    .navbar__bell
-        color: #a8e9e7
         flex-grow: 1
+        .search
+            background-color: #019c97
+            display: flex
+            margin: 10px 0 0 0
+    .navbar__main-bell
+        background-color: #019c97
+        color: #a8e9e7
+        display: flex
         text-align: right
-        padding: 10px 30px 0 10px
+        margin: 10px 0 0 0
+        padding: 0 1rem 0 0
+        .bell
+            background-color: #019c97
+            display: flex
+            margin: 10px 0 0 0
+            .line
+                border-right: 1px solid #01a6a1
+                height: 2rem
+            .line2
+                border-left: 1px solid #01a6a1
+                height: 2rem
     .icon-paper-plane-empty
         color: #c2fdfb
         font-size: 2rem
-        padding: 0 1rem 0 0
+        padding: 10px 20px 5px 15px
+    .icon-user-circle
+        color: white
     @media screen and(max-width: 734px)
         .navbar__search-container
             display: none

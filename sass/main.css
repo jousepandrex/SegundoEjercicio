@@ -14,14 +14,19 @@ body {
     top: 0;
     width: 100%; }
   body .navbar__bell {
-    font-size: 18px; }
+    font-size: 20px; }
   body input {
-    border: 0;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 1rem;
-    padding-left: 1rem;
-    width: 320px;
-    padding: 12px; }
+    font-size: 14px;
+    width: 370px;
+    padding: 15px 10px 14px 15px; }
+  body .button-icon {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 8px 8px 0;
+    margin: 0 0 0 -58px;
+    padding: 11px 14px 11px 14px; }
   body .icon-search {
     color: #189c97;
     font-size: 20px; }
@@ -38,23 +43,36 @@ body {
 
 .navbar__main-navbar {
   display: flex;
-  justify-content: space-between;
-  padding: 10px 0 10px 12px; }
+  padding: 0 0 6px 0; }
   .navbar__main-navbar .navbar__search-container {
+    flex-grow: 1; }
+    .navbar__main-navbar .navbar__search-container .search {
+      background-color: #019c97;
+      display: flex;
+      margin: 10px 0 0 0; }
+  .navbar__main-navbar .navbar__main-bell {
     background-color: #019c97;
-    padding: 0 0 0 15px; }
-    .navbar__main-navbar .navbar__search-container .navbar__search {
-      background-color: white;
-      border-radius: 8px; }
-  .navbar__main-navbar .navbar__bell {
     color: #a8e9e7;
-    flex-grow: 1;
+    display: flex;
     text-align: right;
-    padding: 10px 30px 0 10px; }
+    margin: 10px 0 0 0;
+    padding: 0 1rem 0 0; }
+    .navbar__main-navbar .navbar__main-bell .bell {
+      background-color: #019c97;
+      display: flex;
+      margin: 10px 0 0 0; }
+      .navbar__main-navbar .navbar__main-bell .bell .line {
+        border-right: 1px solid #01a6a1;
+        height: 2rem; }
+      .navbar__main-navbar .navbar__main-bell .bell .line2 {
+        border-left: 1px solid #01a6a1;
+        height: 2rem; }
   .navbar__main-navbar .icon-paper-plane-empty {
     color: #c2fdfb;
     font-size: 2rem;
-    padding: 0 1rem 0 0; }
+    padding: 10px 20px 5px 15px; }
+  .navbar__main-navbar .icon-user-circle {
+    color: white; }
   @media screen and (max-width: 734px) {
     .navbar__main-navbar .navbar__search-container {
       display: none; } }
@@ -62,7 +80,7 @@ body {
 .navbar__left {
   background-color: #2d3b3b;
   height: 100%;
-  margin-top: 62px;
+  margin-top: 68px;
   position: fixed; }
   .navbar__left .navbar__home {
     background-color: #2d3b3b;
@@ -131,8 +149,15 @@ body {
   .frame .navbar__search {
     background-color: white;
     border-radius: 8px;
-    margin: 0 2rem 0 0; }
+    margin: 0 2rem 2rem 0; }
+    .frame .navbar__search .button-icon2 {
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 0 8px 8px 0;
+      margin: 0 0 0 -10px;
+      padding: 10px 5px 12px 5px; }
   .frame input {
+    border: 1px solid #ccc;
     width: auto; }
 
 .main__course {
@@ -142,14 +167,13 @@ body {
     background-color: #e9eeee;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    margin: 0 7rem 0 10rem; }
+    margin: 2rem 6rem 0 0; }
     .main__course .course .course__courses {
       background-color: #ffffff;
       border-radius: 15px 15px 15px 15px;
       flex-wrap: wrap;
       height: 400px;
-      margin: 2rem 0 2rem 4rem;
+      margin: 0 0 2rem 2rem;
       width: 430px; }
       .main__course .course .course__courses .course__courses-madurez {
         border-radius: 15px 15px 0 0;
